@@ -24,8 +24,11 @@
                     </div>
                     <div class="checks" v-show="section.show">
                         <div v-for="check in section.checks">
-                            <input type="checkbox" :id="check.name" v-model="check.checked">
-                            <label :for="check.name"  :class="{checked: check.checked}">{{check.name}}</label>
+                            <template v-if="check.name">
+                                <input type="checkbox" :id="check.name" v-model="check.checked">
+                                <label :for="check.name"  :class="{checked: check.checked}">{{check.name}}</label>
+                            </template>
+                            <div v-else class="divider"></div>
                         </div>
                     </div>
                 </div>

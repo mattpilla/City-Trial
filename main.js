@@ -38,6 +38,21 @@ var app = new Vue({
                     {name: '10 Weight', checked: false},
                     {name: '10 Defense', checked: false}
                 ]
+            },
+            {
+                title: 'See Stadium',
+                show: true,
+                checks: [
+                    {name: 'See Air Glider', checked: false},
+                    {name: 'See High Jump', checked: false},
+                    {name: 'See Kirby Melee 1', checked: false},
+                    {name: 'See King Dedede', checked: false},
+                    {name: 'See 4 Single Races', checked: false},
+                    {},
+                    {name: 'See Drag Race 2', checked: false},
+                    {name: 'See Drag Race 3', checked: false},
+                    {name: 'See Destruction Derby 2', checked: false}
+                ]
             }
         ]
     }

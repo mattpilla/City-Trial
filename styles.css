@@ -90,6 +90,13 @@ input::placeholder {
     padding-bottom: 0;
 }
 
+.divider {
+    border-top: 1px solid #fff;
+    margin-top: 8px;
+    height: 8px;
+    width: 100%;
+}
+
 label {
     padding-left: 4px;
     cursor: pointer;
