@@ -12,8 +12,24 @@
         <link href="favicon.ico" type="image/x-icon" rel="icon">
     </head>
     <body>
-        <div id="ct">
-            hi
+        <div id="app">
+            <div id="nav">
+                <image id="icon" src="preview.png">City Trial Checks
+            </div>
+            <div id="check-body">
+                <div v-for="section in sections" class="section">
+                    <div class="title" @click="section.show = !section.show">
+                        <b>{{section.title}}</b>
+                        <div class="toggle">{{section.show ? 'Collapse' : 'Show'}}</div>
+                    </div>
+                    <div class="checks" v-show="section.show">
+                        <div v-for="check in section.checks">
+                            <input type="checkbox" :id="check">
+                            <label :for="check">{{check}}</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="vue.min.js"></script>
         <script src="main.js"></script>
