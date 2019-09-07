@@ -100,8 +100,8 @@ var app = new Vue({
                     {name: 'Castle Chamber', checked: false},
                     {name: 'Hit Dyna Blade', checked: false},
                     {name: 'Trampled by Dyna Blade', checked: false},
-                    {name: 'Pillars', checked: false, need: 5, have: 0},
-                    {name: 'Meteors', checked: false, need: 3, have: 0}
+                    {name: '5 Pillars', checked: false, need: 5, have: 0},
+                    {name: '3 Meteors', checked: false, need: 3, have: 0}
                 ]
             },
             {
