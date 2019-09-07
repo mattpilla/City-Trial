@@ -6,7 +6,7 @@
         <title>City Trial Checks</title>
         <meta name="description" content="City Trial Checks">
         <meta name="og:description" content="City Trial Checks">
-        <meta property="twitter:image" content="preview.png">
+        <meta property="twitter:image" content="./preview.png">
         <meta name="theme-color" content="#ffc0cb">
         <link rel="stylesheet" href="styles.css">
         <link href="favicon.ico" type="image/x-icon" rel="icon">
@@ -27,6 +27,7 @@
                             <template v-if="check.name">
                                 <input type="checkbox" :id="check.name" v-model="check.checked">
                                 <label :for="check.name"  :class="{checked: check.checked}">{{check.name}}</label>
+                                <input v-if="check.need" type="number" min="0" :max="check.need" v-model="check.have" @change="check.checked = check.have >= check.need">
                             </template>
                             <div v-else class="divider"></div>
                         </div>

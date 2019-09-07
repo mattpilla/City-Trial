@@ -53,6 +53,17 @@ var app = new Vue({
                     {name: 'See Drag Race 3', checked: false},
                     {name: 'See Destruction Derby 2', checked: false}
                 ]
+            },
+            {
+                title: 'Kills',
+                show: true,
+                checks: [
+                    {name: '10 Fireworks', checked: false, need: 10, have: 0},
+                    {name: '3 Golden Spikes', checked: false, need: 3, have: 0},
+                    {name: '3 Motion Bombs', checked: false, need: 3, have: 0},
+                    {name: 'Hurt 3 CPUs in 1 Match', checked: false},
+                    {name: 'Kill 5 CPUs', checked: false, need: 5, have: 0}
+                ]
             }
         ]
     }
