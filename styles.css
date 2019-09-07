@@ -12,7 +12,7 @@ body {
 }
 
 a {
-    color: #13ff9d;
+    color: #ffc0cb;
     text-decoration: none;
 }
 
@@ -27,7 +27,7 @@ input {
 }
 
 input:focus {
-    outline-color: #13ff9d;
+    outline-color: #ffc0cb;
 }
 
 input::placeholder {
@@ -78,7 +78,7 @@ input::placeholder {
     padding: 4px 8px;
     font-size: 1.15rem;
     cursor: pointer;
-    background-color: #13ff9d;
+    background-color: #ffc0cb;
     color: #000;
     border: none;
     border-radius: 2px;
