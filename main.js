@@ -64,6 +64,55 @@ var app = new Vue({
                     {name: 'Hurt 3 CPUs in 1 Match', checked: false},
                     {name: 'Kill 5 CPUs', checked: false, need: 5, have: 0}
                 ]
+            },
+            {
+                title: 'City Misc.',
+                show: true,
+                checks: [
+                    {name: 'Legendary Machines', checked: false},
+                    {name: '10 Items in 20 Seconds', checked: false},
+                    {name: 'Hurt Rival in 10 Seconds', checked: false},
+                    {name: 'Simultaneously Get Off Machines', checked: false},
+                    {name: 'All End Off Machine', checked: false},
+                    {name: 'All End On Rail', checked: false}
+                ]
+            },
+            {
+                title: 'See 4 Races',
+                show: true,
+                checks: [
+                    {name: 'See Fantasy Meadows', checked: false},
+                    {name: 'See Beanstalk Park', checked: false},
+                    {name: 'See Celestial Valley', checked: false},
+                    {name: 'See Sky Sands', checked: false},
+                    {name: 'See Frozen Hillside', checked: false},
+                    {name: 'See Magma Flows', checked: false},
+                    {name: 'See Machine Passage', checked: false},
+                    {name: 'See Checker Knights', checked: false}
+                ]
+            },
+            {
+                title: 'Events',
+                show: true,
+                checks: [
+                    {name: 'Tak', checked: false},
+                    {name: 'Restoration Area', checked: false},
+                    {name: 'Castle Chamber', checked: false},
+                    {name: 'Hit Dyna Blade', checked: false},
+                    {name: 'Trampled by Dyna Blade', checked: false},
+                    {name: 'Pillars', checked: false, need: 5, have: 0},
+                    {name: 'Meteors', checked: false, need: 3, have: 0}
+                ]
+            },
+            {
+                title: 'Notes',
+                show: true,
+                notes: [
+                    {name: 'DR1', desc: 'Fomula 17, Warp 26'},
+                    {name: 'DR2', desc: 'Wagon 27, Winged 29, Anyone 20'},
+                    {name: 'DR3', desc: 'Swerve 28, Bike 31, Anyone 27'},
+                    {name: 'DR4', desc: 'Rex 24, Turbo 33, Anyone 19'}
+                ]
             }
         ]
     }

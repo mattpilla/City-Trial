@@ -31,6 +31,9 @@
                             </template>
                             <div v-else class="divider"></div>
                         </div>
+                        <div v-for="note in section.notes">
+                            <i>{{note.name}}</i>: {{note.desc}}
+                        </div>
                     </div>
                 </div>
             </div>
